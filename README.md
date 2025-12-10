@@ -1,0 +1,33 @@
+# Semester 5 (out of 8) Projects Wrap-Up
+
+This repository collects all the major projects I worked on this semester. Each section includes a short description and the original repository link for reference.
+
+## Robot Vision Project
+This was the most defining project of the semester. I built a dense crowd surveillance pipeline using a fine-tuned **YOLO** model and **BoT-SORT** on the **MOT20** dataset. It gave me a much deeper understanding of how vision systems behave outside clean benchmarks.
+
+**Repo:** [https://github.com/AkshatJha0411/advanced-crowd-surveillance](https://github.com/AkshatJha0411/advanced-crowd-surveillance)
+
+## Robot Control Project
+I recreated the control architecture from the 2010 **PID** backstepping paper for a two-wheeled self-balancing robot and extended it with a real-time **Fuzzy Adaptive** layer. The goal was to study how the hybrid **PD** plus backstepping controller behaves under nonlinearities, and how an adaptive scheduling layer changes the stability and disturbance response.
+
+**Repo:** [https://github.com/AkshatJha0411/Self-balancing-robot-adaptive-control](https://github.com/AkshatJha0411/Self-balancing-robot-adaptive-control)
+
+## Robot Manipulators
+A four-part set of assignments covering major topics in manipulation:
+
+1.  **Path Planning:** Implemented **RRT**, **BiRRT**, and **RRT*** in both joint and task space.
+2.  **Force Control:** Interaction control through Admittance and Impedance behavior under static and dynamic conditions.
+3.  **Vision:** Vision-based pose estimation and **IBVS** (Image-Based Visual Servoing) in PyBullet using both Eye-in-Hand and Eye-to-Hand camera setups.
+4.  **Learning:** Imitation Learning and **RL** (Reinforcement Learning) controllers for a 3-link robot arm, including training and evaluation in unseen environments.
+
+**Repo:** [https://github.com/AkshatJha0411/Robot-Manipulators-Simulations](https://github.com/AkshatJha0411/Robot-Manipulators-Simulations)
+
+## DP of Mechatronics
+I developed a low-cost pressure monitoring aid for bedsore prevention using an **FSR** (Force Sensing Resistor) embedded strip. The system continuously measures pressure and triggers alerts when thresholds are exceeded for unsafe durations. The goal was to create an accessible, affordable alternative to existing solutions.
+
+**Repo:** [https://github.com/AkshatJha0411/Bedsore-Prevention-Monitor](https://github.com/AkshatJha0411/Bedsore-Prevention-Monitor)
+
+## Essentials of Entrepreneurship
+I worked on "**FitFuel**" (concept),  an automated protein shake vending machine designed for gyms. It operates on a **B2B2C** model, offering instant customized shakes for users and recurring revenue for gyms without any upfront investment. The project includes market analysis, financial modeling, and a deployment strategy.
+
+**Presentation Link:** [View Google Drive Folder](https://drive.google.com/drive/folders/1HSdanthoZX4Wd1IgMuQ1MC-khDa9g3xv?usp=sharing)
